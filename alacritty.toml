@@ -1,0 +1,6 @@
+[shell]
+program = "/usr/bin/nu"
+
+[font]
+normal = { family = "FiraMono Nerd Font Mono", style = "Regular" }
+size = 9
