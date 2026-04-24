@@ -1,0 +1,12 @@
+return {
+	"folke/which-key.nvim",
+	event = "VeryLazy",
+	opts = {
+		triggers = {
+			{ "<leader>", mode = "nxso" },
+		},
+	},
+	keys = {
+		{ "<leader>b", group = "buffers" },
+	},
+}
