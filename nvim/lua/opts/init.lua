@@ -1,1 +1,1 @@
-require("opts.doom-one")
+require("opts.vague")
