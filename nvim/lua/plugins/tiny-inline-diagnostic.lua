@@ -1,6 +1,12 @@
 return {
 	"rachartier/tiny-inline-diagnostic.nvim",
-	event = "VeryLazy",
+	event= "VeryLazy",
 	priority = 1000,
-	config = true,
+	opts = {
+		multilines = {
+			enabled = true,
+			always_show = true,
+			severity = { vim.diagnostic.severity.ERROR },
+		}
+	}
 }

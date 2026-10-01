@@ -4,9 +4,6 @@ return {
 	opts = {
 		triggers = {
 			{ "<leader>", mode = "nxso" },
-		},
-	},
-	keys = {
-		{ "<leader>b", group = "buffers" },
+		}
 	},
 }

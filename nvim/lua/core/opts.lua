@@ -14,6 +14,12 @@ vim.o.wrap = false
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.termguicolors = true
-vim.o.fillchars="eob: "
+vim.o.fillchars = "eob: ,fold: ,foldopen:-,foldsep: ,foldinner: ,foldclose:+"
+vim.o.signcolumn = "yes"
 
-vim.wo.signcolumn = "yes"
+vim.o.foldcolumn = '1'
+vim.o.foldlevel = 99
+vim.o.foldlevelstart = 99
+vim.o.foldenable = true
+
+vim.o.cinoptions = "(1s"

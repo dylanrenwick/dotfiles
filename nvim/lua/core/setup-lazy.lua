@@ -1,9 +1,7 @@
 require("lazy").setup({
 	spec = {
-		{ import = "plugins" },
+		{ import = "plugins" }
 	},
-	install = {
-	},
-	checker = { enabled = true, },
-	rocks = { enabled = false, },
+	checker = { enabled = true },
+	rocks = { enabled = false },
 })
